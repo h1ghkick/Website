@@ -8,7 +8,6 @@
     <style>
         body {
         background-color: #c4c4c4;
-        font-family: 'Kumbh Sans', sans-serif;
     
         }
 
@@ -37,30 +36,80 @@
             1px 30px 60px rgba(16,16,16,0.4);
         }
 
+        .navbar-brand img{
+            margin: 0;
+            padding-top: 0;
+            max-height: 150px;
+
+        }
+
+        .link-116 {
+        color: #ffffff;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 5px;
+        position: relative;
+        overflow: hidden;
+        }
+
+        .link-116::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 2px;
+        background-color: #ffffff;
+        width: 0;
+        transition: width 0.3s ease;
+        }
+
+        .link-116:hover::after {
+        width: 100%;
+        animation: heartbeat116 1.5s infinite;
+        }
+
+        @keyframes heartbeat116 {
+        0%, 100% {
+            width: 100%;
+        }
+        50% {
+            width: 60%;
+        }
+        }
+
+        .container {
+            font-family: monospace;
+        }
+
+        
+
+
 
     </style>
 </head>
 <body>
     <!-- Include Header -->
-    <header  class="p-3 mb-2 bg-danger text-white">
+    <header  class=" mb-2 bg-danger text-white">
         <div class="container d-flex justify-content-between align-items-center">
             <a 
                 class="navbar-brand" 
                 href="index.html"><img 
                 class="img-fluid d-inline-block align-text-top" 
                 src="images/LOGO_SOCIALREUNION.png" 
-                alt="logo" 
-                style="max-height: 90px; height: auto;" >
+                alt="logo"> 
             </a>
             <nav>
-                <ul class="nav d-flex" style="gap: 15px; ">
-                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="loesungen.html">Infos</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="mitmachen.html">Mitmachen</a></li>
-                    <li class="nav-item"><a class="nav-link text-white" href="ueber-uns.html">Über uns</a></li>
+                <ul class="nav d-flex" style="gap: 40px; ">
+                    <li class="nav-item"><a class="nav-link text-white link-116" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-116" href="loesungen.html">Infos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-116" href="mitmachen.html">Mitmachen</a></li>
+                    <li class="nav-item"><a class="nav-link text-white link-116" href="ueber-uns.html">Über uns</a></li>
                 </ul>
             </nav>
-            <a href="#" class="btn btn-light">Jetzt aktiv werden!</a>
+                <button type="button" class="btn btn-outline-dark" style="color: white;">
+                    Mitmachen!
+                </button>
         </div>
     </header>
 
@@ -71,8 +120,8 @@
             <p class="lead">„Suburbanisierung und Gentrifizierung im Fokus“</p>
             <img src="images/Plakat.jpg" alt="Hero Image" class="img-fluid my-4">
             <p>Erfahre, wie städtische und suburbane Räume im Wandel sind und wie wir gerechte Lösungen finden können.</p>
-            <a href="lösungen.html" class="btn btn-dark">Mehr erfahren</a>
-            <a href="mitmachen.html" class="btn btn-dark">Mach mit</a>
+            <a href="lösungen.html" class="btn btn-light" style="border-color: black;">Mehr erfahren</a>
+            <a href="mitmachen.html" class="btn btn-light" style="border-color: black;">Mach mit</a>
         </div>
     </section>
 
