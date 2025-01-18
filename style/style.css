@@ -1,35 +1,89 @@
-/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+        background-color: #c4c4c4;
 }
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.text {
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 100px;
+    font-weight: 700;
+    color: #fa201c;
+    text-shadow: 1px 1px 1px #919191,
+                 1px 2px 1px #919191,
+                 1px 3px 1px #919191,
+                 1px 4px 1px #919191,
+                 1px 5px 1px #919191,
+                 1px 6px 1px #919191,
+                 1px 7px 1px #919191,
+                 1px 8px 1px #919191,
+                 1px 9px 1px #919191,
+                 1px 10px 1px #919191,
+                 1px 18px 6px rgba(16,16,16,0.4),
+                 1px 22px 10px rgba(16,16,16,0.2),
+                 1px 25px 35px rgba(16,16,16,0.2),
+                 1px 30px 60px rgba(16,16,16,0.4);
 }
 
-.map-placeholder {
-    height: 300px;
-}
-
-.before-after-images img {
-    max-width: 45%;
-    margin: 10px 0;
-}
-
-/* Buttons */
-.btn-primary {
-    background-color: #0056b3;
-    border: none;
-}
-
-.btn-outline-primary {
-    color: #0056b3;
-    border-color: #0056b3;
-}
-
-/* Footer */
-footer p {
+.navbar-brand img{
     margin: 0;
+    padding-top: 0;
+    max-height: 150px;
+}
+
+.link-116 {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.link-116::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #ffffff;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.link-116:hover::after {
+    width: 100%;
+    animation: heartbeat116 1.5s infinite;
+}
+
+@keyframes heartbeat116 {
+    0%, 100% {
+        width: 100%;
+    }
+    50% {
+        width: 60%;
+    }
+}
+
+.container {
+    font-family: monospace;
+}
+
+
+h1, h2 {
+    color: #333;
+}
+ul {
+margin: 10px 0;
+padding: 0 20px;
+list-style-type: none;
+}
+li {
+margin-bottom: 8px;
+}
+.section {
+margin-bottom: 20px;
 }
