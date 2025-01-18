@@ -1,0 +1,76 @@
+Dokumentation für Website
+
+Dieses Projekt ist eine Sammlung von Dateien, die zusammen eine Website bilden. Im Folgenden wird jede Datei kurz beschrieben, zusammen mit den Personen, die dazu beigetragen haben oder keinen Beitrag geleistet haben.
+
+Projektübersicht
+
+Das Projekt umfasst HTML-, CSS-, JavaScript-Dateien sowie Bilder und Medien. Ziel der Website ist es, soziale und urbane Themen zu beleuchten.
+
+Dateien und Beiträge
+
+1. .gitignore
+Erstellt und verwaltet von Adnan.
+Zweck: Ignoriert bestimmte Dateien und Ordner im Git-Repository.
+
+
+2. README.md
+Verfasst von Adnan.
+Zweck: Beschreibt das Projekt und gibt Anleitungen zur Nutzung.
+
+
+3. gentrifizierung.html
+Erstellt von Adnan
+Zweck: Behandelt das Thema Gentrifizierung.
+
+
+4. index.html
+Hauptseite der Website, entwickelt von Fyn.
+
+
+5. loesungen.html
+Erstellt von Adnan.
+Zweck: Präsentiert mögliche Lösungen für die diskutierten Themen.
+
+
+6. mitmachen.html
+Erstellt von [Name]. Keine Beiträge von [Name].
+Zweck: Regt zur aktiven Teilnahme an.
+
+
+7. suburbanisierung.html
+Erstellt von [Name]. Keine Beiträge von [Name].
+Zweck: Diskutiert das Thema Suburbanisierung.
+
+
+8. ueber-uns.html
+Erstellt von [Name]. Keine Beiträge von [Name].
+Zweck: Gibt Hintergrundinformationen über das Team.
+
+
+9. MI_Radiospot.mp3 (im Ordner contents/)
+Eingereicht von Fyn. Zweck: Ein Radiospot, der das Projekt bewirbt.
+
+
+10. LOGO_SOCIALREUNION.ico & LOGO_SOCIALREUNION.png (im Ordner images/)
+Erstellt von Fyn.
+Zweck: Logos der Website.
+
+
+11. Plakat.jpg (im Ordner images/)
+Eingereicht von Fyn
+Zweck: Ein Plakat zur Visualisierung des Projekts.
+
+
+12. scripts.js (im Ordner scripts/)
+Entwickelt von Adnan.
+Zweck: Fügt der Website interaktive Funktionen hinzu.
+
+
+13. style.css (im Ordner style/)
+Erstellt von Adnan und Fyn.
+Zweck: Verleiht der Website ein konsistentes Erscheinungsbild.
+
+
+Zusammenfassung
+
+Dieses Projekt wurde mit Beiträgen von Adnan und Fyn erstellt.
